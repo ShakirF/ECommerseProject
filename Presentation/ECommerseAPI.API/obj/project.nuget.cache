@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "eJLQ4NmOxLULGpfZe3IdVEZKIzCuC10E2TKWxJwswkOJ0lXJbo9Dm1Nrj1l0+WafnCh0G1J3FwVT6p0Y84demg==",
+  "dgSpecHash": "ChzKtFm/5FfoRgkU1Sz92qHTvKE05wi0qHc77uHlhwkoPRwCbpTR8NwxTDk1Et61sgQ7Y1eTUI/PPPHI8xUv+g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\ECommerseProject\\ECommerseAPI\\Presentation\\ECommerseAPI.API\\ECommerseAPI.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
