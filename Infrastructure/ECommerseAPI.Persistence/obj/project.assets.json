@@ -526,7 +526,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "ECommerseAPI.Domain": "1.0.0"
+          "ECommerseAPI.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.9"
         },
         "compile": {
           "bin/placeholder/ECommerseAPI.Application.dll": {}
