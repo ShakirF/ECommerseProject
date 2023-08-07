@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ECommerseAPI.Application.Abstractions;
-using ECommerseAPI.Persistence.Concretes;
+
 using ECommerseAPI.Persistence.Contexts;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -9,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
+using ECommerseAPI.Application.Repositories;
+using ECommerseAPI.Persistence.Repositories;
 
 namespace ECommerseAPI.Persistence
 {
@@ -17,8 +18,14 @@ namespace ECommerseAPI.Persistence
         public static void AddPersistenceServices(this IServiceCollection services)
         {
           
-            services.AddSingleton<IProductService,ProductService>();
             services.AddDbContext<ECommerseAPIDbContext>(options => options.UseNpgsql(Configuration.ConnectionString));
+            services.AddScoped<ICustomerReadRepository,CustomerReadRepository>();
+            services.AddScoped<ICustomerWriteRepository,CustomerWriteRepository>();
+            services.AddScoped<IOrderReadRepository,OrderReadRepository>();
+            services.AddScoped<IOrderWriteRepository,OrderWriteRepository>();
+            services.AddScoped<IProductReadRepository,ProductReadRepository>();
+            services.AddScoped<IProductWriteRepository,ProductWriteRepository>();
+
         }
     }
 }
