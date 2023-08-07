@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace ECommerseAPI.Persistence.Repositories
 {
-    internal class WriteRepository<T> : IWriteRepository<T> where T : BaseEntity
+    public class WriteRepository<T> : IWriteRepository<T> where T : BaseEntity
     {
         readonly private ECommerseAPIDbContext _context;
 
